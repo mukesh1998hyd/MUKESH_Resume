@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87CEEB; /* Sky blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #444;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.download-resume {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-resume:hover {
+    background-color: #1c86ee;
+}
+
+
+
+.profile {
+    text-align: right side center;
+    margin: 30px;
+}
+
+.profile img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #333; /* Optional: adds a border around the image */
+}
+
+.icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px; /* Adjust size as needed */
+}
+
+.icons a:hover {
+    color: #007bff; /* Adjust hover color if needed */
+}
+
+.box {
+    padding: 20px;
+    border: 2px solid #1e90ff; /* Blue border for boxes */
+    margin: 10px 0;
+    border-radius: 5px; /* Rounded corners for the boxes */
+    background-color: #fff;
+    color: #333;
+}
+
+.box h2 {
+    color: #1e90ff;
+}
